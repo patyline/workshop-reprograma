@@ -1,0 +1,212 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  color: #555;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+/* HEADER */
+
+.header-info {
+  background-image: url("../img/ocean.jpg");
+  height: 210px;
+  position: relative;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 0;
+}
+
+.header-info img {
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -50px;
+}
+
+.header-info .header-descricao {
+  width: 400px;
+  text-align: center;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.header-frase {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.header-frase p {
+  font-family: "Dancing Script", cursive;
+  color: #023d67;
+  font-size: 35px;
+  margin: 0;
+}
+
+h1 {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+/* SOBRE MIM */
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #28b1d8;
+}
+
+.sobre {
+  margin: 5em 0;
+  text-align: center;
+}
+
+.sobre a {
+  text-transform: uppercase;
+  font-weight: 600;
+  border: none;
+  background: #15b1d7;
+  padding: 15px;
+  color: #fff;
+  border-radius: 7px;
+  border-right: 4px solid #157dd7;
+  border-bottom: 4px solid #157dd7;
+  cursor: pointer;
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.sobre a:hover {
+  border-bottom: none;
+  border-right: none;
+  border-top: 4px solid #fff;
+  border-left: 4px solid #fff;
+}
+
+.sobre-mim_info {
+  text-align: center;
+}
+
+.sobre-mim_habilidades {
+  width: 30vw;
+  margin-left: 2rem;
+}
+
+.sobre-mim_info a {
+  background-color: #023d67;
+  border: unset;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.sobre-mim_info a:hover {
+  background-color: #fff;
+  color: #023d67;
+  border: 1px solid #023d67;
+  transition: ease-in 0.2s;
+}
+
+.porques {
+  text-align: center;
+}
+
+.porques_info {
+  display: flex;
+  text-align: center;
+  margin: 50px auto;
+  justify-content: center;
+  background: whitesmoke;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.porques_item {
+  width: 500px;
+  padding: 0 30px;
+}
+.porques_item img {
+  width: 80px;
+}
+
+/* REDES SOCIAIS */
+
+.porques,
+.redes,
+.sobre {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  width: 70vw;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+.porques:before,
+.redes:before,
+.sobre:before {
+  height: 2px;
+  content: "";
+  top: -35px;
+  width: 100px;
+  background: #f97304;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.redes-sociais {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.redes-sociais .icone {
+  margin: 0 10px;
+}
+
+.redes-sociais img {
+  max-width: 3rem;
+  max-height: 3rem;
+}
+
+.redes-sociais_facebook,
+.redes-sociais_linkedin,
+.redes-sociais_twitter,
+.redes-sociais_github {
+  background-color: #023d67;
+}
+
+footer {
+  text-align: center;
+  background: #f97304;
+  padding: 30px 10px;
+  color: #fff;
+}
+
+footer img {
+  width: 50px;
+}
